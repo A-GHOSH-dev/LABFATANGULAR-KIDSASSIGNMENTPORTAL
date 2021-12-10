@@ -1,0 +1,37 @@
+
+
+<h3 class="m-5">Submit your Assignment</h3>
+<form class="m-5" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Subject</label>
+      <input type="text" [(ngModel)]="subject" class="form-control" name="subject" id="subject" aria-describedby="emailHelp">
+     
+    </div>
+    <div class="mb-3">
+        <label for="title" class="form-label">Code</label>
+        <input type="text" [(ngModel)]="code" class="form-control" name="code" id="code" aria-describedby="emailHelp">
+       
+      </div>
+      <div class="mb-3">
+        <label for="title" class="form-label">Assignment Title</label>
+        <input type="text" [(ngModel)]="title" class="form-control" name="title" id="title" aria-describedby="emailHelp">
+       
+      </div>
+      <div class="mb-3">
+        <label for="title" class="form-label">Date of Submission</label>
+        <input type="text" [(ngModel)]="datesu" class="form-control" name="datesu" id="datesu" aria-describedby="emailHelp">
+       
+      </div>
+    <div class="mb-3">
+      <label for="desc" class="form-label">Task Description</label>
+      <input type="text" [(ngModel)]="desc" class="form-control" name="desc" id="desc">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+  <!--(ngSubmit)="onSubmit()"
+  [(ngModel)]="title"
+-->
+

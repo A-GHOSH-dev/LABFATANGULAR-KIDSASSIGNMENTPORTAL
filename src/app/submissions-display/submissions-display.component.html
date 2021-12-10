@@ -1,0 +1,19 @@
+
+    <div class="my-5">
+        <!-- <h3 [class]="'nostrike'?todo.active:'strike'">{{todo.title}}</h3>-->
+     <!--[ngClass]="{'strike': !todo.active}"-->
+     <h2 [ngClass]="{'strike': !todo.active}">{{todo.subject}} - {{todo.code}}</h2>
+        <h3 [ngClass]="{'strike': !todo.active}">{{todo.title}}</h3>
+     
+         <p [ngClass]="{'strike': !todo.active}">{{todo.desc}}</p>
+         <h5 [ngClass]="{'strike': !todo.active}">{{todo.datesu}}</h5>
+     
+         <div class="mb-3 form-check">
+             <input type="checkbox" class="form-check-input" id="exampleCheck1" (click)="onCheckboxClick(todo)">
+             <label class="form-check-label" for="exampleCheck1">Mark As Done</label>
+           </div>
+     
+     
+         <button class="btn btn-danger" (click)="onClick(todo)">Delete</button>
+         </div>
+

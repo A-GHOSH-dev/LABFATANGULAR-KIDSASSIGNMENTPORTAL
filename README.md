@@ -1,5 +1,7 @@
 # Kidsassignmentportal
 
+https://ashy-grass-0dbb3e510.azurestaticapps.net/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## Development server
